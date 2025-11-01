@@ -21,7 +21,9 @@
     "build:node": "NODE_ENV=production node -r babel-register ./node_modules/webpack/bin/webpack --config webpack.main.config.js --progress --profile --colors",
     "dist:osx": "./scripts/osx/dist-osx.sh",
     "dist:win": "./scripts/osx/dist-win.sh",
-    "dist:linux": "./scripts/osx/dist-linux.sh"
+    "dist:linux": "./scripts/osx/dist-linux.sh",
+    "build:mac": "npm run build && ./node_modules/.bin/electron-builder --mac dmg",
+    "build:all": "npm install && npm run build && ./node_modules/.bin/electron-builder --mac dmg"
   },
   "build": {
     "appId": "com.yhat.rodeo",
