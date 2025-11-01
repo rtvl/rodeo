@@ -23,7 +23,7 @@
     "dist:win": "./scripts/osx/dist-win.sh",
     "dist:linux": "./scripts/osx/dist-linux.sh",
     "build:mac": "npm run build && ./node_modules/.bin/electron-builder --mac dmg",
-    "build:all": "npm install && npm run build && ./node_modules/.bin/electron-builder --mac dmg"
+    "build:all": "npm install --legacy-peer-deps && npm run build && ./node_modules/.bin/electron-builder --mac dmg"
   },
   "build": {
     "appId": "com.yhat.rodeo",

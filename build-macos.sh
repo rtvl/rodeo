@@ -19,7 +19,7 @@ SCRIPT_DIR="$( cd "$( dirname "${BASH_SOURCE[0]}" )" && pwd )"
 cd "$SCRIPT_DIR"
 
 echo "📦 Step 1/3: Installing dependencies..."
-npm install
+npm install --legacy-peer-deps
 
 echo ""
 echo "🔨 Step 2/3: Building application..."
