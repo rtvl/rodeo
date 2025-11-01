@@ -1,0 +1,10 @@
+[Desktop Entry]
+Version=1.0
+Type=Application
+Name=Rodeo IDE
+Comment=An IDE for data science
+Exec=/home/user/rodeo/run-rodeo.sh
+Icon=/home/user/rodeo/src/browser/components/forms/rodeo-logo.png
+Terminal=false
+Categories=Development;IDE;
+StartupNotify=true

@@ -48,11 +48,13 @@
     },
     "linux": {
       "target": [
+        "AppImage",
         "deb",
         "rpm",
         "tar.gz",
         "zip"
-      ]
+      ],
+      "category": "Development"
     },
     "mac": {
       "helperBundleId": "com.yhat.rodeo.helper",
